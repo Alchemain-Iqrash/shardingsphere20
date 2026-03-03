@@ -571,6 +571,11 @@
                 <scope>test</scope>
             </dependency>
             <dependency>
+                <groupId>org.apache.jena</groupId>
+                <artifactId>jena-arq</artifactId>
+                <version>4.10.0</version>
+            </dependency>
+            <dependency>
                 <groupId>com.facebook.presto</groupId>
                 <artifactId>presto-jdbc</artifactId>
                 <version>${presto.version}</version>
@@ -658,6 +663,11 @@
                 <artifactId>jedis</artifactId>
                 <version>${jedis.version}</version>
                 <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.openrefine.dependencies</groupId>
+                <artifactId>butterfly</artifactId>
+                <version>1.2.6</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
