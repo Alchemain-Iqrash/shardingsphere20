@@ -233,6 +233,12 @@
     
     <dependencyManagement>
         <dependencies>
+        <dependency>
+        <groupId>org.project</groupId>
+        <artifactId>reusable-test-support</artifactId>
+          <version>1.0</version>
+        <type>test-jar</type>
+              </dependency>
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
