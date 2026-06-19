@@ -233,11 +233,7 @@
     
     <dependencyManagement>
         <dependencies>
-        <dependency>
-  			<groupId>com.example.dummy</groupId>
-  			<artifactId>dummy-policy-test</artifactId>
-  			<version>1.0.0</version>
-		</dependency>
+        
         
         <dependency>
             <groupId>org.codehaus.mojo</groupId>
@@ -365,6 +361,12 @@
                 <artifactId>freemarker</artifactId>
                 <version>${freemarker.version}</version>
             </dependency>
+
+            <dependency>
+  			     <groupId>com.example.dummy</groupId>
+  			    <artifactId>dummy-policy-test</artifactId>
+  			    <version>1.0.0</version>
+		   </dependency>
             
             <dependency>
                 <groupId>org.apache.commons</groupId>
